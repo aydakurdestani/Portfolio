@@ -1,0 +1,28 @@
+* {
+  font-family: "Indie Flower", cursive;
+}
+.imgSize {
+  width: 100%;
+}
+.iconSize {
+  font-size: 20px;
+}
+
+/*Custom scrollbar styles*/
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.ps__thumb-y {
+  background-color: #28a745;
+  border-radius: 10px;
+}
+
+.ps__thumb-x:hover,
+.ps__thumb-y:hover {
+  background-color: #218838 !important;
+}
