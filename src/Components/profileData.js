@@ -4,7 +4,7 @@ const profileData = {
   location: "Sanandaj,Iran",
   gmail: "Kordestaniayda@gmail.com",
   phone: "+98-9217879756",
-  avatar: "/profilePhoto.jpg",
+  avatar: process.env.PUBLIC_URL + "/profilePhoto.jpg",
 
   skills: [
     { name: "HTML", level: 100, emoji: "💪" },
